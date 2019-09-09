@@ -1,7 +1,7 @@
 import React from 'react';
 import Tetris from './components/Tetris'
 
-const app = () => (
+const App = () => (
   <div className='App'>
     <Tetris />
   </div>

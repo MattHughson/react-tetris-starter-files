@@ -1,7 +1,7 @@
 import React from 'react'
 
 //Components
-import Stage from './stage'
+import Stage from './Stage'
 import Display from './Display'
 import StartButton from './Startbutton'
 
