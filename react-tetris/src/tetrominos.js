@@ -58,3 +58,5 @@ export const randomTetromino = () => {
     tetrominos[Math.floor(Math.random() * tetrominos.length)]
 return TETROMINOS[randTetrominos];
 }
+
+// stoped at 32:07
