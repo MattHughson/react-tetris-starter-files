@@ -2,7 +2,7 @@ import React from 'react'
 
 
 import { createStage } from '../gameHelpers'
-import { StyledTetrisWrapper, StyledTetris} from './styles/StyledTetris'
+import { StyledTetrisWapper, StyledTetris} from './styles/StyledTetris';
 
 import Stage from './Stage'
 import Display from './Display'
@@ -13,8 +13,8 @@ const Tetris = () =>{
 
 
   return (
-
-    <StyledTetrisWrapper>
+    
+    <StyledTetrisWapper>
       <StyledTetris>
       <Stage stage={createStage()}/>
       <aside>
@@ -27,7 +27,7 @@ const Tetris = () =>{
 
       </aside>
       </StyledTetris>
-    </StyledTetrisWrapper>
+    </StyledTetrisWapper>
   )
 }
 
