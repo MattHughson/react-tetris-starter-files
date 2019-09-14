@@ -1,6 +1,6 @@
-import Style from 'styled-components`';
+import styled from 'styled-components'
 
-export const StyledStartButton = Styled.button`
+export const StyledStartButton = styled.button`
   box-sizing: border-box;
   margin: 0 0 20px 0;
   padding: 20px;
@@ -14,5 +14,5 @@ export const StyledStartButton = Styled.button`
   font-size: 1rem;
   otuline: none;
   cursor: pointer;
-  
+
 `
