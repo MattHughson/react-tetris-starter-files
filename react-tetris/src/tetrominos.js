@@ -20,7 +20,7 @@ export const TETROMINOS = {
     [0, 'L', 0 ],
     [0, 'L', 'L'],
   ],
-  color: '36 , 95, 223',
+  color: '66 , 45, 203',
   },
   O:{ shape: [
     ['O', 'O'],
@@ -59,4 +59,3 @@ export const randomTetromino = () => {
 return TETROMINOS[randTetrominos];
 }
 
-// stoped at 32:07
